@@ -1,7 +1,7 @@
 A simple Full Stack CRUD (Create, Read, Update, Delete) application built with Spring Boot, React, and H2 Database.
-This project allows users to manage student details like name, age, and email.
+ This project allows users to manage student details like name, age, and email.
  
- ## Technologies Used
+ # Technologies Used
  Backend:
  Java 17+
  Spring Boot
@@ -13,7 +13,7 @@ This project allows users to manage student details like name, age, and email.
  Axios (for API calls)
  HTML / CSS / JavaScript
  
- ## Features
+ # Features
  ✅ Add new student
  ✅ View all students
  ✅ Update student details
@@ -21,9 +21,9 @@ This project allows users to manage student details like name, age, and email.
  ✅ Integrated frontend and backend
  ✅ In-memory database (H2)
  
- ## Project Structure:
+ # Project Structure:
  student-management/
- ├── backend/
+  ├── backend/
   │   ├── src/main/java/com/example/student/
   │   │   ├── controller/StudentController.java
   │   │   ├── service/StudentService.java
@@ -32,21 +32,19 @@ This project allows users to manage student details like name, age, and email.
   │   └── resources/application.properties
   │
   └── frontend/
-          ├── src/
-          ├── components/
-          │   ├── AddStudent.js
-          │   ├── StudentList.js
-          │   ├── UpdateStudent.js
-          │   └── DeleteStudent.js
-          ├── App.js
-          └── index.js
- 
- ## API Endpoints (Spring Boot)
+      ├── src/
+      │   ├── components/
+      │   │   ├── AddStudent.js
+      │   │   ├── StudentList.js
+      │   │   ├── UpdateStudent.js
+      │   │   └── DeleteStudent.js
+      │   ├── App.js
+      │   └── index.js
+
+ # API Endpoints (Spring Boot)
  | Method | Endpoint         | Description            |
  | ------ | ---------------- | ---------------------- |
  | POST   | /students      | Create a new student   |
  | GET    | /students      | Get all students       |
  | PUT    | /students/{id} | Update a student by ID |
  | DELETE | /students/{id} | Delete a student by ID |
- 
- 
