@@ -23,7 +23,7 @@ This project allows users to manage student details like name, age, and email.
  
  ## Project Structure:
  student-management/
-  ├── backend/
+ ├── backend/
   │   ├── src/main/java/com/example/student/
   │   │   ├── controller/StudentController.java
   │   │   ├── service/StudentService.java
@@ -32,14 +32,14 @@ This project allows users to manage student details like name, age, and email.
   │   └── resources/application.properties
   │
   └── frontend/
-      ├── src/
-      │   ├── components/
-      │   │   ├── AddStudent.js
-      │   │   ├── StudentList.js
-      │   │   ├── UpdateStudent.js
-      │   │   └── DeleteStudent.js
-      │   ├── App.js
-      │   └── index.js
+          ├── src/
+          ├── components/
+          │   ├── AddStudent.js
+          │   ├── StudentList.js
+          │   ├── UpdateStudent.js
+          │   └── DeleteStudent.js
+          ├── App.js
+          └── index.js
  
  ## API Endpoints (Spring Boot)
  | Method | Endpoint         | Description            |
