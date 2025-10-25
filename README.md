@@ -22,24 +22,35 @@ A simple Full Stack CRUD (Create, Read, Update, Delete) application built with S
  ✅ In-memory database (H2)
  
  # Project Structure:
- student-management/
-  ├── backend/
-  │   ├── src/main/java/com/example/student/
-  │   │   ├── controller/StudentController.java
-  │   │   ├── service/StudentService.java
-  │   │   ├── repository/StudentRepository.java
-  │   │   └── model/Student.java
-  │   └── resources/application.properties
-  │
-  └── frontend/
-      ├── src/
-      │   ├── components/
-      │   │   ├── AddStudent.js
-      │   │   ├── StudentList.js
-      │   │   ├── UpdateStudent.js
-      │   │   └── DeleteStudent.js
-      │   ├── App.js
-      │   └── index.js
+student-management/
+│
+├── backend/
+│   ├── src/
+│   │   └── main/
+│   │       └── java/
+│   │           └── com/
+│   │               └── example/
+│   │                   └── student/
+│   │                       ├── controller/
+│   │                       │   └── StudentController.java
+│   │                       ├── service/
+│   │                       │   └── StudentService.java
+│   │                       ├── repository/
+│   │                       │   └── StudentRepository.java
+│   │                       └── model/
+│   │                           └── Student.java
+│   └── resources/
+│       └── application.properties
+│
+└── frontend/
+    ├── src/
+    │   ├── components/
+    │   │   ├── AddStudent.js
+    │   │   ├── StudentList.js
+    │   │   ├── UpdateStudent.js
+    │   │   └── DeleteStudent.js
+    │   ├── App.js
+    │   └── index.js
 
  # API Endpoints (Spring Boot)
  | Method | Endpoint         | Description            |
